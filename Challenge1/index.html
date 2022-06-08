@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href= link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="icon" href="imágenes/icon.ico">
+
+    <title>Encriptador De Texto</title>
+</head>
+
+<body>
+    <header>
+        <img src="imágenes/logo.jpg" alt="Logo Alura" class="logo">
+    </header>
+
+    <div class="principal"> 
+            <textarea id="entradaTexto" class="mensajeAencriptar" placeholder="Ingrese el texto aquí" autofocus></textarea>
+            <h2 class="informacion">&#9888;  Solo letras minúsculas y sin acentos.</h2>
+
+            <div class="botones">
+                <button id="btnEncriptar" class="boton-encriptar"  onclick="encriptar()">Encriptar</button>
+                <button id="btnDesencriptar" class="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+    </div>
+        
+
+            <section class="salida-con-imagen">
+                <img src="imágenes/Muñeco.jpg" alt="Muñeco con lupa" class="muñeco">
+                    <h2 class="sin-mensaje" id="mensajeSalida">Ningún mensaje fue encontrado</h2>
+                    <p class="mensaje-texto-vacio">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <textarea id="salidaTexto" readonly></textarea>
+                    <button id="btnCopiar" class="boton-copiar" onclick="copiar()">Copiar</button>
+            </section>
+                
+            
+    </div>
+
+    <script src="javascript/encriptador.js"></script>
+    
+</body>
+</html>
