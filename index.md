@@ -21,9 +21,9 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
-**Bold** and _Italic_ and `Code` text
+**Bold** and _Italic_ and `index.html` text
 
-[Link](url) and ![Image](src)
+[Link](https://github.com/Ale1921/Challenge1-Oracle/tree/main/Challenge1) and ![Image](src)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
