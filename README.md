@@ -1,4 +1,6 @@
 ## Welcome to GitHub Pages
+![Challenge 1](https://user-images.githubusercontent.com/89220231/173212025-7897bcf1-cb50-4f55-a888-eacb81d34b2e.png)
+
 
 You can use the [editor on GitHub](https://github.com/Ale1921/Challenge1-Oracle/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
